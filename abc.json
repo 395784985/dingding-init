@@ -1,0 +1,15 @@
+{
+    "name": "dingding-init",
+    "options": {
+        "type": "salt",
+        "template": "https://github.com/nowa-webpack/template-salt/archive/master.zip",
+        "npm": "npm",
+        "vars": {
+        	"VAR_USE_MODE": "client", 
+            "__LOCAL__": true
+        },
+        "buildvars": {
+            "__LOCAL__": [ false ]
+        }
+    }
+}

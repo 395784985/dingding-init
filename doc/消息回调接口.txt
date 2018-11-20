@@ -1,0 +1,33 @@
+
+1、注册事件回调接口
+	https://oapi.dingtalk.com/call_back/register_call_back?access_token=ACCESS_TOKEN
+	
+	post数据：
+	{
+	    "call_back_tag": ["user_add_org", "user_modify_org", "user_leave_org", "org_dept_create", "org_dept_modify", "org_dept_remove"],
+	    "token": "123456",
+	    "aes_key": "4g5j64qlyl3zvetqxz5jiocdr586fn2zvjpa8zls3ij",
+	    "url":"http://www.diaosiquan.com/msg/receive.action"
+	}
+	
+2、查询事件回调接口
+	https://oapi.dingtalk.com/call_back/get_call_back?access_token=ACCESS_TOKEN
+	
+3、更新事件回调接口
+	https://oapi.dingtalk.com/call_back/update_call_back?access_token=ACCESS_TOKEN
+	post数据：
+	{
+	    "call_back_tag": ["user_add_org", "user_modify_org", "user_leave_org", "org_dept_create", "org_dept_modify", "org_dept_remove"],
+	    "token": "123456",
+	    "aes_key": "4g5j64qlyl3zvetqxz5jiocdr586fn2zvjpa8zls3ij",
+	    "url":"http://www.diaosiquan.com/msg/receive.action"
+	}
+	
+4、删除事件回调接口
+	https://oapi.dingtalk.com/call_back/delete_call_back?access_token=ACCESS_TOKEN
+
+
+获取ACCESS_TOKEN
+	https://oapi.dingtalk.com/gettoken?corpid=xxx&corpsecret=xxxx
+	
+

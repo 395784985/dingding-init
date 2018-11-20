@@ -1,0 +1,2 @@
+nowa server
+pause

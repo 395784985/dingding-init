@@ -1,0 +1,23 @@
+{
+  "name": "dingding-init",
+  "author": "zhaoxudong",
+  "version": "1.0.0",
+  "description": "dingding-init",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "nowa server",
+    "build": "nowa build"
+  },
+  "homepage": "index",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "~2.1.2",
+    "i18n-helper": "~1.1.1",
+    "mysql": "~2.12.0",
+    "react-keeper": "^2.0.6",
+    "react-mixin": "~1.7.0"
+  }
+}

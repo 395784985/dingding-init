@@ -1,0 +1,10 @@
+{
+	"success": true,
+	"content": {
+		"corpId": "ding1e0042940cd8a285",
+		"noceStr": "abcdefgh",
+		"signature": "502a194c52c290e14551111dbd834764579bcc3d",
+		"timeStamp": 1481527315376,
+		"url": "http://192.168.40.34:3000"
+	}
+}

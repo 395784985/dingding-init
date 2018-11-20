@@ -1,0 +1,102 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Develoment\\nodejs\\node.exe',
+1 verbose cli   'D:\\Develoment\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '@ali/tingle-scroll-list',
+1 verbose cli   '--save' ]
+2 info using npm@3.9.5
+3 info using node@v6.2.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @ali/tingle-scroll-list
+8 silly fetchNamedPackageData @ali/tingle-scroll-list
+9 silly mapToRegistry name @ali/tingle-scroll-list
+10 silly mapToRegistry scope (from package name) @ali
+11 verbose mapToRegistry no registry URL found in name for scope @ali
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry http://registry.cnpmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: '@ali/tingle-scroll-list',
+14 silly mapToRegistry   scope: '@ali',
+14 silly mapToRegistry   name: '@ali/tingle-scroll-list',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri http://registry.cnpmjs.org/@ali%2ftingle-scroll-list
+16 verbose request uri http://registry.cnpmjs.org/@ali%2ftingle-scroll-list
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 15:10:51
+19 verbose request id 768d7fd4c0518f6b
+20 http request GET http://registry.cnpmjs.org/@ali%2ftingle-scroll-list
+21 http 404 http://registry.cnpmjs.org/@ali%2ftingle-scroll-list
+22 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+22 verbose headers   date: 'Mon, 10 Jul 2017 07:10:53 GMT',
+22 verbose headers   'content-type': 'application/json; charset=utf-8',
+22 verbose headers   'transfer-encoding': 'chunked',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-current-requests': '1',
+22 verbose headers   'x-readtime': '27',
+22 verbose headers   'content-encoding': 'gzip' }
+23 silly get cb [ 404,
+23 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+23 silly get     date: 'Mon, 10 Jul 2017 07:10:53 GMT',
+23 silly get     'content-type': 'application/json; charset=utf-8',
+23 silly get     'transfer-encoding': 'chunked',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-current-requests': '1',
+23 silly get     'x-readtime': '27',
+23 silly get     'content-encoding': 'gzip' } ]
+24 silly fetchPackageMetaData Error: 404 Not Found: @ali/tingle-scroll-list
+24 silly fetchPackageMetaData     at makeError (D:\Develoment\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (D:\Develoment\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:250:14)
+24 silly fetchPackageMetaData     at D:\Develoment\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:178:7
+24 silly fetchPackageMetaData     at Gunzip.onEnd (zlib.js:227:5)
+24 silly fetchPackageMetaData     at emitNone (events.js:91:20)
+24 silly fetchPackageMetaData     at Gunzip.emit (events.js:185:7)
+24 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:934:12)
+24 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+24 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9)
+24 silly fetchPackageMetaData  error for @ali/tingle-scroll-list { Error: 404 Not Found: @ali/tingle-scroll-list
+24 silly fetchPackageMetaData     at makeError (D:\Develoment\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (D:\Develoment\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:250:14)
+24 silly fetchPackageMetaData     at D:\Develoment\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:178:7
+24 silly fetchPackageMetaData     at Gunzip.onEnd (zlib.js:227:5)
+24 silly fetchPackageMetaData     at emitNone (events.js:91:20)
+24 silly fetchPackageMetaData     at Gunzip.emit (events.js:185:7)
+24 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:934:12)
+24 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+24 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9)
+24 silly fetchPackageMetaData   pkgid: '@ali/tingle-scroll-list',
+24 silly fetchPackageMetaData   statusCode: 404,
+24 silly fetchPackageMetaData   code: 'E404' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Starting
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: 404 Not Found: @ali/tingle-scroll-list
+30 verbose stack     at makeError (D:\Develoment\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+30 verbose stack     at CachingRegistryClient.<anonymous> (D:\Develoment\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:250:14)
+30 verbose stack     at D:\Develoment\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:178:7
+30 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+30 verbose stack     at emitNone (events.js:91:20)
+30 verbose stack     at Gunzip.emit (events.js:185:7)
+30 verbose stack     at endReadableNT (_stream_readable.js:934:12)
+30 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+30 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+31 verbose statusCode 404
+32 verbose pkgid @ali/tingle-scroll-list
+33 verbose cwd E:\zhaoxudong\workspace_new\mickey\mickey-parent\dingding-init
+34 error Windows_NT 6.1.7601
+35 error argv "D:\\Develoment\\nodejs\\node.exe" "D:\\Develoment\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "@ali/tingle-scroll-list" "--save"
+36 error node v6.2.2
+37 error npm  v3.9.5
+38 error code E404
+39 error 404 Not Found: @ali/tingle-scroll-list
+40 error 404
+41 error 404 '@ali/tingle-scroll-list' is not in the npm registry.
+42 error 404 You should bug the author to publish it (or use the name yourself!)
+43 error 404 Note that you can also install from a
+44 error 404 tarball, folder, http url, or git url.
+45 verbose exit [ 1, true ]
